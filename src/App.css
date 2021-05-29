@@ -1,0 +1,27 @@
+.App {
+  /* text-align: center; */
+  background-color: black;
+}
+.card-one {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.card-two {
+  background-color:rgb(52, 121, 98);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-content {
+  color: #61dafb;
+}
