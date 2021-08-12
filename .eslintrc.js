@@ -25,6 +25,7 @@ module.exports = {
     'jest'
   ],
   'rules': {
+    'react/prop-types': 'off',
     'indent': [
       'warn',
       2
