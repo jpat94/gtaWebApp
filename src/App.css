@@ -4,6 +4,9 @@
 }
 .card-one {
   background-color: #000;
+  background-image: url("images/cover.jpg");
+  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
