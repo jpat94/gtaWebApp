@@ -6,12 +6,14 @@ function App () {
   return (
     <div className="App">
       <Header />
-      <body className="card-one">
+
+      <div className="card-one">
         <p className="App-content">Coming soon...</p>
-      </body>
+      </div>
       <div className="card-two">
         test
       </div>
+      
     </div>
   );
 }
