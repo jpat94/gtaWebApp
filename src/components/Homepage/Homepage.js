@@ -1,18 +1,16 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Card from '../Card/Card';
-import image from '../../images/cover.jpg';
+import CoverImage from '../../images/cover.jpg';
+import Footer from '../Footer/Footer';
 
 function Homepage() {
   return (
     <div>
       <Header />
-      <div>
-        <Card imageURL={image} />
-      </div>
-      <div>
-        <Card color='black' />
-      </div>
+      <Card imageURL={CoverImage} />
+      <Card color='blue' />
+      <Footer />
     </div>
   );
 }
