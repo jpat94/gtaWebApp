@@ -1,30 +1,16 @@
 .App {
-  /* text-align: center; */
-  background-color: black;
+  background-color: rgb(80, 80, 80);
 }
-/* .card-one {
-  background-color: #000;
-  background-image: url("images/cover.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    padding: 10px;
 }
-.card-two {
-  background-color:rgb(52, 121, 98);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+    color: rgb(150, 150, 150) !important;
 }
-.App-content {
-  color: #61dafb;
-} */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}

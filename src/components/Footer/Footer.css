@@ -1,4 +1,11 @@
-.panel-footer.panel-custom {
-    background: red;
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 15px;
+    font-size: calc(6px + 1vmin);
+}
+.pad {
+    padding: 5px;
 }
