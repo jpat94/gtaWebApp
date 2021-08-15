@@ -7,10 +7,8 @@ module.exports = {
   },
   'extends': [
     'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:react/recommended'
   ],
-  'parser': '@typescript-eslint/parser',
   'parserOptions': {
     'ecmaFeatures': {
       'jsx': true
@@ -21,7 +19,6 @@ module.exports = {
   },
   'plugins': [
     'react',
-    '@typescript-eslint',
     'jest'
   ],
   'rules': {
@@ -38,7 +35,6 @@ module.exports = {
       'error',
       'always'
     ],
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
     'jest/no-identical-title': 'error'
   }
 };
